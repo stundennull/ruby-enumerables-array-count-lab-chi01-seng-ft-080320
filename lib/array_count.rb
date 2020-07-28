@@ -1,7 +1,7 @@
 def count_strings(array)
   array.count do |string|
     binding.pry
-    string = String 
+    string.class = String 
   end
 end
 
