@@ -1,6 +1,5 @@
 def count_strings(array)
   array.count do |string|
-    require pry 
     string = String 
   end
 end
