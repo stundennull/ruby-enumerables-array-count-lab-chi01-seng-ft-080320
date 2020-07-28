@@ -1,6 +1,5 @@
 def count_strings(array)
   array.count do |string|
-    binding.pry
     string.class = String 
   end
 end
